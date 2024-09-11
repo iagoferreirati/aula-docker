@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx
+    volumes:
+    - ./site:/usr/share/nginx/html
+    ports:
+    - "62000:80"
